@@ -9,10 +9,12 @@
     "deploy": "vite build && wrangler deploy"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.18",
     "@tanstack/react-router": "^1",
     "@tanstack/react-start": "^1",
     "react": "^19",
-    "react-dom": "^19"
+    "react-dom": "^19",
+    "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "^1",
